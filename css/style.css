@@ -1,0 +1,184 @@
+
+/* the first row */
+
+.open_scan {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+    width: 1920px;
+    height: 835px;
+    margin: 0px;
+    top: 0px;
+    display: flex;
+}
+
+
+.left {
+    width: 1249px;
+    height: 835px;
+    background-image: url(../images/sunset.png);
+
+}
+
+
+.right {
+    position: relative;
+    width: 671px;
+    background-color: #F27B49;
+    display: flex;
+}
+
+.absolute.logo {
+    position: absolute;
+    background-image: url(../images/Ji\ Hu\ logo.png);
+    height: 269px;
+    width: 259px;
+    right: 100px;
+    top: 170px;
+
+}
+
+.absolute.name.open_scan {
+    position: absolute;
+    font-size: 70px;
+    top: 470px;
+    left: 100px;
+}
+
+.absolute.reddot {
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    top: 500px;
+    left: 140px;
+    background-image: url(../images/red\ dot.png)
+
+}
+
+
+.absolute.titles.open_scan {
+    position: absolute;
+    font-size: 40px;
+    top: 570px;
+    left: 92px;
+    color: white;
+    line-height: 60%;
+
+}
+
+.absolute.dot1 {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    top: 50px;
+    left: 50px;
+    background-image: url(../images/nail.png);
+
+}
+
+.absolute.dot2 {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    top: 50px;
+    right: 50px;
+    background-image: url(../images/nail.png);
+    
+}
+
+.absolute.dot3 {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    bottom: 50px;
+    left: 50px;
+    background-image: url(../images/nail.png);
+    
+}
+
+.absolute.dot4 {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    bottom: 50px;
+    right: 50px;
+    background-image: url(../images/nail.png);
+    
+}
+
+
+/* the sencond row */
+
+.aboutMeSection {
+    width: 1920px;
+    height: 849px;
+    margin: 0px;
+    top: 835px;
+    display: flex;
+}
+
+
+#left1 {
+    position: relative;
+    width: 1249px;
+    background-color: #66739F;
+    display: flex;
+}
+
+#text1 {
+    position: absolute;
+    font-size: 70px;
+    top: 82px;
+    left: 118px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#p1 {
+    position: absolute;
+    font-size: 40px;
+    top: 195px;
+    left: 118px;
+    width: 980px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 120%;
+
+}
+
+/* the sencond row */
+
+#socialMedia {
+    position: relative;
+    width: 1920px;
+    height: 218px;
+    margin: 0px;
+    background-color: #F27B49;
+}
+
+
+
+.twitter {
+    position: absolute;
+    top: 61px;
+    left: 776px;
+
+}
+
+.tumblr {
+    position: absolute;
+    top: 61px;
+    left: 914px;
+
+}
+
+.instagram {
+    position: absolute;
+    top: 61px;
+    left: 1052px;
+
+}
+
+
+
+
