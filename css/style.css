@@ -484,6 +484,10 @@ li {
       background-color: #E88156;
       padding: 0%;
       min-height: 100vh;
+      
+     
+
+      
     
     }
 
@@ -493,12 +497,13 @@ li {
      letter-spacing: -2.2px;
      color: #000000;
      opacity: 1;
-     margin-bottom: 5%;
+     margin: 5%;
     }
 
     .cardsContainer {
      display: flex;
      flex-direction: column;
+     
      
     }
 
@@ -518,7 +523,7 @@ li {
      color: #E88156;
      opacity: 1;
      line-height: 1.3;
-     margin-bottom: 5%;
+     margin: 5%;
     }
 
     .card p {
@@ -529,6 +534,99 @@ li {
      margin-bottom: 5%;
      letter-spacing: 0.5px;
     
+    }
+
+
+    /* my work */
+
+    #myProject {
+     padding: 7%;
+    
+    
+    }
+
+    #myProjectText {
+     font-size: 30px;
+     text-align: left;
+     letter-spacing: -2.2px;
+     color: #000000;
+     opacity: 1;
+     margin-bottom: 5%;
+    }
+
+    .projectContainer {
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     padding-bottom: 5%;
+     border-bottom: 5px solid #E88156;
+
+   
+
+    }
+
+    #projectInfo {
+
+     text-align: center;
+     width: 25%;
+     padding: 3%;
+     opacity: 1;
+     line-height: 1.3;
+
+    }
+
+    #projectInfo h2 {
+     font-size: 17px;
+     font-weight: bold;
+     letter-spacing: -2.2px;
+     margin-bottom: 9%;
+
+    }
+
+    #projectInfo p {
+     font-size: 15px;
+     letter-spacing: -2.2px;
+     margin-bottom: 9%;
+   
+    }
+
+    #projectInfo img {
+     width: 150px;;
+
+    }
+
+
+    #projectImgs {
+     display: flex;
+     justify-content: center;
+
+    }
+
+
+
+
+    #projectImgs img {
+     width: 30%;
+    
+    }
+
+
+
+
+
+
+    .adjust {
+     display: flex;
+     justify-content: flex-start;
+     width: 600px;
+
+    } 
+
+    #adjusttheborder {
+     border-bottom: 0px;
+
     }
   
   
