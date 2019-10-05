@@ -612,17 +612,15 @@ p {
     #projectImgs {
      display: flex;
      justify-content: center;
-
-    }
-
-
-
-
-    #projectImgs img {
-     width: 30%;
+     width: 95%;
      height: auto;
-    
+
     }
+
+
+
+
+   
 
 
 
