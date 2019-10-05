@@ -309,7 +309,6 @@ p {
 
 #socialMedia {
     height: 150px;
-    margin: 0px;
     background-color: #E88156;
     display: flex;
     justify-content: center;
@@ -318,6 +317,8 @@ p {
 
 #socialMedia img {
     margin: 0 25px;
+    width: 92px;
+    height: 92px
 }
 
 
@@ -341,7 +342,7 @@ p {
     #topGrid {
         margin: 0px 0px;
         display: grid;
-        height: 115vh;
+        height: 120vh;
         width: 100vw;
         grid-template-rows: 20% 15% 25% 40%;
         grid-template-columns: 100%;
@@ -417,6 +418,7 @@ p {
       background-color: #66739F;
       padding: 0%;
       min-width: auto;
+      height: auto;
       
       
     }
@@ -555,7 +557,7 @@ p {
      display: flex;
      flex-direction: column;
      align-items: center;
-     justify-content: space-between;
+     justify-content: none;
      padding-bottom: 5%;
      border-bottom: 5px solid #E88156;
 
@@ -566,7 +568,7 @@ p {
     #projectInfo {
 
      text-align: center;
-     width: 25%;
+     width: 50%;
      padding: 3%;
      opacity: 1;
      line-height: 1.3;
@@ -574,22 +576,35 @@ p {
     }
 
     #projectInfo h2 {
+     
+     
+
      font-size: 17px;
      font-weight: bold;
-     letter-spacing: -2.2px;
-     margin-bottom: 9%;
+     letter-spacing: 1px;
+     color: #000000;
+     opacity: 1;
+     line-height: 1.3;
+     margin: 5%;
 
     }
 
     #projectInfo p {
-     font-size: 15px;
-     letter-spacing: -2.2px;
-     margin-bottom: 9%;
+     
+     
+     
+
+     font-size: 17px;
+     color:black;
+     opacity: 1;
+     line-height: 1.3;
+     margin-bottom: 6%;
+     letter-spacing: 0.5px;
    
     }
 
     #projectInfo img {
-     width: 150px;;
+     width: 180px;
 
     }
 
@@ -605,6 +620,7 @@ p {
 
     #projectImgs img {
      width: 30%;
+     height: auto;
     
     }
 
@@ -613,10 +629,9 @@ p {
 
 
 
-    .adjust {
-     display: flex;
-     justify-content: flex-start;
-     width: 600px;
+    #blogImgs {
+     
+     width: 300px;
 
     } 
 
@@ -624,6 +639,38 @@ p {
      border-bottom: 0px;
 
     }
+
+    .adjust {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    
+    }
+
+
+    /* follow me  */
+
+    #socialMedia {
+
+     height: 90px;
+     margin: 0px;
+     background-color: #E88156;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+    }
+
+    
+
+
+    #socialMedia img {
+        margin: 0 10px;
+        width: 50px;
+        height: 50px
+    }
+    
+   
 
 
     
